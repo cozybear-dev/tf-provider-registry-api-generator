@@ -30,7 +30,7 @@ REGISTRY_URL=https://registry.$(gcloud dns managed-zones \
     --format 'value(dns_name)' | \
   sed -e 's/\.$//')
 
-go get github.com/mollie/tf-provider-registry-api-generator
+go get github.com/cozybear-dev/tf-provider-registry-api-generator
 tf-provider-registry-api-generator \
   --bucket-name $TF_REGISTRY_BUCKET \
   --prefix binaries/terraform-provider-sentry/v0.6.0/ \

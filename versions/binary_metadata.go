@@ -4,7 +4,7 @@ import (
 	"cloud.google.com/go/storage"
 	"context"
 	"fmt"
-	"github.com/mollie/tf-provider-registry-api-generator/signing_key"
+	"github.com/cozybear-dev/tf-provider-registry-api-generator/signing_key"
 	"google.golang.org/api/iterator"
 	"log"
 	"path"

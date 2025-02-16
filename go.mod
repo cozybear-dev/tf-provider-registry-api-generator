@@ -1,4 +1,4 @@
-module github.com/mollie/tf-provider-registry-api-generator
+module github.com/cozybear-dev/tf-provider-registry-api-generator
 
 go 1.15
 

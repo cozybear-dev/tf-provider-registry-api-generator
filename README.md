@@ -86,7 +86,7 @@ This will automatically upload the binaries into the bucket.
 Finally, to generate the required terraform provider registry API documents, type:
 
 ```sh
-go get github.com/mollie/tf-provider-registry-api-generator
+go get github.com/cozybear-dev/tf-provider-registry-api-generator
 $GOPATH/bin/tf-provider-registry-api-generator \
   --bucket-name $TF_REGISTRY_BUCKET \
   --prefix binaries/jianyuan/terraform-provider-sentry/v0.6.0/ \

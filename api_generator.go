@@ -6,7 +6,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/mollie/tf-provider-registry-api-generator/versions"
+	"github.com/cozybear-dev/tf-provider-registry-api-generator/versions"
 	"io/ioutil"
 	"log"
 	"path"
