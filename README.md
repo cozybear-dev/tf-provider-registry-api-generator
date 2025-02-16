@@ -1,5 +1,8 @@
 Terraform provider registry API generator for Google Cloud Storage
 =====================================================================
+```
+go install github.com/cozybear-dev/tf-provider-registry-api-generator@latest
+```
 Since version 0.13 of Hashicorp Terraform, terraform supports the notion of a provider registry. When you
 create your own provider, you can make it accessible via [https://registry.terraform.io](https://registry.terraform.io).
 
