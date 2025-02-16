@@ -18,6 +18,7 @@ func assertDiscoveryDocument(bucket *storage.BucketHandle) {
 	content := make(map[string]string)
 	expect := map[string]string{
 		"providers.v1": "/v1/providers/",
+		"modules.v1": "/v1/modules/",
 	}
 
 	p := path.Join(".well-known", "terraform.json")
